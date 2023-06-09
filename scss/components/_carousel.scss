@@ -1,0 +1,15 @@
+#carouselExampleControlsNoTouching {
+    display: flex;
+    justify-content: center;
+    width: 95%; /* Ajusta el ancho del carrusel según tus necesidades */
+    margin: 0 auto;
+}
+  
+.carousel{
+    &-inner{
+        max-width: 100%;
+    }
+    &-item{
+        text-align: center;
+    }
+}

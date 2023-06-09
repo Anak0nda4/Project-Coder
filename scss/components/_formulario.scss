@@ -1,0 +1,51 @@
+.mt-5 {
+    margin-top: $espaciado;
+}
+  
+.mb-5 {
+    margin-bottom: $espaciado;
+}
+  
+.mt-5,
+.mt-5 h2 {
+    margin-top: $espaciado;
+}
+  
+.lead {
+    font-size: 1.25rem;
+}
+  
+.col-md-4,
+.col-lg-4 {
+    margin-top: $espaciado;
+}
+  
+.form-group {
+    margin-bottom: $operacion/5;
+}
+  
+label {
+    font-weight: bold;
+}
+  
+@mixin form-block{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.form-control {
+    @include form-block();
+    color: $gris_claro;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid $borde;
+    border-radius: 0.25rem;
+}
+  
+textarea.form-control {
+    height: auto;
+}
